@@ -1,0 +1,3 @@
+1."start_urls"写成了"start_url"导致出现" DEBUG: Telnet console listening on 127.0.0.1:6024"异常信息
+2.paper.xpath(".//*[@class='postTitle2']/@href")其中"class='postTitle2'"忘记单引号导致无法爬取信息
+3.出现“DEBUG: Forbidden by robots.txt”异常，解决：关闭scrapy自带的ROBOTSTXT_OBEY功能，在setting找到这个变量，设置为False即可解决。

@@ -1,0 +1,420 @@
+2017-11-27 22:43:44 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: douban_books)
+2017-11-27 22:43:44 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'douban_books', 'DEPTH_LIMIT': 2, 'DOWNLOAD_DELAY': 10, 'LOG_FILE': 'scrapy.log', 'NEWSPIDER_MODULE': 'douban_books.spiders', 'SPIDER_MODULES': ['douban_books.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'}
+2017-11-27 22:43:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-27 22:43:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-27 22:43:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-27 22:43:45 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-27 22:43:45 [scrapy.core.engine] INFO: Spider opened
+2017-11-27 22:43:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-27 22:43:45 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-11-27 22:43:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None> (referer: None)
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '慢三',
+ 'book_url': 'https://read.douban.com/ebook/35300210/',
+ 'price': '4.99元0.00元试读',
+ 'score': '8.0',
+ 'score_num': '1190',
+ 'style': '悬疑小说',
+ 'title': '暖气'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '坦克手贝吉塔',
+ 'book_url': 'https://read.douban.com/ebook/39965040/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.2',
+ 'score_num': '352',
+ 'style': '文艺小说',
+ 'title': '盘锦豹子'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '〔加〕王平常',
+ 'book_url': 'https://read.douban.com/ebook/34520184/',
+ 'price': '4.99元0.00元试读',
+ 'score': '9.0',
+ 'score_num': '911',
+ 'style': '爱情小说 / 海外小说',
+ 'title': '单身在线'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '楼东玉',
+ 'book_url': 'https://read.douban.com/ebook/41145576/',
+ 'price': '1.99元0.00元试读',
+ 'score': '7.8',
+ 'score_num': '70',
+ 'style': '悬疑小说',
+ 'title': '环岛迷雾'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '拾贰',
+ 'book_url': 'https://read.douban.com/ebook/37064007/',
+ 'price': '3.99元1.99元试读',
+ 'score': '9.4',
+ 'score_num': '111',
+ 'style': '文艺小说',
+ 'title': '花不迷人人自迷（上）'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '大给',
+ 'book_url': 'https://read.douban.com/ebook/42006123/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.0',
+ 'score_num': '100',
+ 'style': '悬疑小说',
+ 'title': '107国道连环杀手'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '拾贰',
+ 'book_url': 'https://read.douban.com/ebook/38989164/',
+ 'price': '3.99元1.99元试读',
+ 'score': '9.2',
+ 'score_num': '107',
+ 'style': '文艺小说',
+ 'title': '花不迷人人自迷（下）'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '〔加〕王平常',
+ 'book_url': 'https://read.douban.com/ebook/42204561/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.4',
+ 'score_num': '28',
+ 'style': '爱情小说 / 海外小说',
+ 'title': '海阔天空 II'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '朱欢尘',
+ 'book_url': 'https://read.douban.com/ebook/36476119/',
+ 'price': '免费试读',
+ 'score': '8.6',
+ 'score_num': '257',
+ 'style': '爱情小说',
+ 'title': '大龄处女有什么问题'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '东门大为哥',
+ 'book_url': 'https://read.douban.com/ebook/41600697/',
+ 'price': '1.99元0.00元试读',
+ 'score': '8.0',
+ 'score_num': '32',
+ 'style': '悬疑小说',
+ 'title': '楼上的声音'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '陆禾',
+ 'book_url': 'https://read.douban.com/ebook/29208026/',
+ 'price': '4.99元0.00元试读',
+ 'score': '8.8',
+ 'score_num': '775',
+ 'style': '青春小说',
+ 'title': '我们都一样孤独无依'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '拂樱',
+ 'book_url': 'https://read.douban.com/ebook/38738253/',
+ 'price': '免费试读',
+ 'score': '9.2',
+ 'score_num': '139',
+ 'style': '职业故事',
+ 'title': '新闻将在秋日死去'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '暴力仓鼠',
+ 'book_url': 'https://read.douban.com/ebook/36683415/',
+ 'price': '免费试读',
+ 'score': '9.4',
+ 'score_num': '171',
+ 'style': '悬疑小说',
+ 'title': '黑河杀手'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': 'noc',
+ 'book_url': 'https://read.douban.com/ebook/41796287/',
+ 'price': '1.99元0.00元试读',
+ 'score': '8.8',
+ 'score_num': '12',
+ 'style': '幻想小说',
+ 'title': '俱乐部故事'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '时间皇冠',
+ 'book_url': 'https://read.douban.com/ebook/42128559/',
+ 'price': '4.99元0.00元试读',
+ 'score': '8.2',
+ 'score_num': '14',
+ 'style': '推理小说',
+ 'title': '血雨村诅咒杀人事件'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '许德念',
+ 'book_url': 'https://read.douban.com/ebook/40558112/',
+ 'price': '4.99元0.00元试读',
+ 'score': '7.6',
+ 'score_num': '13',
+ 'style': '悬疑小说',
+ 'title': '鲁迅遗嘱'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '致宁',
+ 'book_url': 'https://read.douban.com/ebook/2965996/',
+ 'price': '1.99元0.10元试读',
+ 'score': '7.0',
+ 'score_num': '14',
+ 'style': '科幻小说',
+ 'title': '未来世界'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '知更',
+ 'book_url': 'https://read.douban.com/ebook/38626184/',
+ 'price': '免费试读',
+ 'score': '8.8',
+ 'score_num': '128',
+ 'style': '爱情小说 / 都市小说',
+ 'title': '你睡了，我醒了'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '马洪湉',
+ 'book_url': 'https://read.douban.com/ebook/21656081/',
+ 'price': '2.99元试读',
+ 'score': '7.8',
+ 'score_num': '276',
+ 'style': '推理小说',
+ 'title': '蒙太奇：斯德哥尔摩之光'}
+2017-11-27 22:43:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '翼走',
+ 'book_url': 'https://read.douban.com/ebook/14371720/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.0',
+ 'score_num': '1821',
+ 'style': '科幻小说',
+ 'title': '追逐太阳的男人'}
+2017-11-27 22:43:46 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-27 22:43:46 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 340,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 13531,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 27, 14, 43, 46, 672913),
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 22,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 27, 14, 43, 45, 329099)}
+2017-11-27 22:43:46 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-27 22:45:17 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: douban_books)
+2017-11-27 22:45:17 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'douban_books', 'DEPTH_LIMIT': 2, 'DOWNLOAD_DELAY': 10, 'LOG_FILE': 'scrapy.log', 'NEWSPIDER_MODULE': 'douban_books.spiders', 'SPIDER_MODULES': ['douban_books.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0'}
+2017-11-27 22:45:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-27 22:45:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-27 22:45:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-27 22:45:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-27 22:45:18 [scrapy.core.engine] INFO: Spider opened
+2017-11-27 22:45:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-27 22:45:18 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-11-27 22:45:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None> (referer: None)
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '慢三',
+ 'book_url': 'https://read.douban.com/ebook/35300210/',
+ 'price': '4.99元0.00元试读',
+ 'score': '8.0',
+ 'score_num': '1191',
+ 'style': '悬疑小说',
+ 'title': '暖气'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '坦克手贝吉塔',
+ 'book_url': 'https://read.douban.com/ebook/39965040/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.2',
+ 'score_num': '352',
+ 'style': '文艺小说',
+ 'title': '盘锦豹子'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '〔加〕王平常',
+ 'book_url': 'https://read.douban.com/ebook/34520184/',
+ 'price': '4.99元0.00元试读',
+ 'score': '9.0',
+ 'score_num': '911',
+ 'style': '爱情小说 / 海外小说',
+ 'title': '单身在线'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '楼东玉',
+ 'book_url': 'https://read.douban.com/ebook/41145576/',
+ 'price': '1.99元0.00元试读',
+ 'score': '7.8',
+ 'score_num': '70',
+ 'style': '悬疑小说',
+ 'title': '环岛迷雾'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '拾贰',
+ 'book_url': 'https://read.douban.com/ebook/37064007/',
+ 'price': '3.99元1.99元试读',
+ 'score': '9.4',
+ 'score_num': '111',
+ 'style': '文艺小说',
+ 'title': '花不迷人人自迷（上）'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '大给',
+ 'book_url': 'https://read.douban.com/ebook/42006123/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.0',
+ 'score_num': '100',
+ 'style': '悬疑小说',
+ 'title': '107国道连环杀手'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '拾贰',
+ 'book_url': 'https://read.douban.com/ebook/38989164/',
+ 'price': '3.99元1.99元试读',
+ 'score': '9.2',
+ 'score_num': '107',
+ 'style': '文艺小说',
+ 'title': '花不迷人人自迷（下）'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '〔加〕王平常',
+ 'book_url': 'https://read.douban.com/ebook/42204561/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.4',
+ 'score_num': '28',
+ 'style': '爱情小说 / 海外小说',
+ 'title': '海阔天空 II'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '朱欢尘',
+ 'book_url': 'https://read.douban.com/ebook/36476119/',
+ 'price': '免费试读',
+ 'score': '8.6',
+ 'score_num': '257',
+ 'style': '爱情小说',
+ 'title': '大龄处女有什么问题'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '东门大为哥',
+ 'book_url': 'https://read.douban.com/ebook/41600697/',
+ 'price': '1.99元0.00元试读',
+ 'score': '8.0',
+ 'score_num': '32',
+ 'style': '悬疑小说',
+ 'title': '楼上的声音'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '陆禾',
+ 'book_url': 'https://read.douban.com/ebook/29208026/',
+ 'price': '4.99元0.00元试读',
+ 'score': '8.8',
+ 'score_num': '775',
+ 'style': '青春小说',
+ 'title': '我们都一样孤独无依'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '拂樱',
+ 'book_url': 'https://read.douban.com/ebook/38738253/',
+ 'price': '免费试读',
+ 'score': '9.2',
+ 'score_num': '139',
+ 'style': '职业故事',
+ 'title': '新闻将在秋日死去'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '暴力仓鼠',
+ 'book_url': 'https://read.douban.com/ebook/36683415/',
+ 'price': '免费试读',
+ 'score': '9.4',
+ 'score_num': '171',
+ 'style': '悬疑小说',
+ 'title': '黑河杀手'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': 'noc',
+ 'book_url': 'https://read.douban.com/ebook/41796287/',
+ 'price': '1.99元0.00元试读',
+ 'score': '8.8',
+ 'score_num': '12',
+ 'style': '幻想小说',
+ 'title': '俱乐部故事'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '时间皇冠',
+ 'book_url': 'https://read.douban.com/ebook/42128559/',
+ 'price': '4.99元0.00元试读',
+ 'score': '8.2',
+ 'score_num': '14',
+ 'style': '推理小说',
+ 'title': '血雨村诅咒杀人事件'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '许德念',
+ 'book_url': 'https://read.douban.com/ebook/40558112/',
+ 'price': '4.99元0.00元试读',
+ 'score': '7.6',
+ 'score_num': '13',
+ 'style': '悬疑小说',
+ 'title': '鲁迅遗嘱'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '致宁',
+ 'book_url': 'https://read.douban.com/ebook/2965996/',
+ 'price': '1.99元0.10元试读',
+ 'score': '7.0',
+ 'score_num': '14',
+ 'style': '科幻小说',
+ 'title': '未来世界'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '知更',
+ 'book_url': 'https://read.douban.com/ebook/38626184/',
+ 'price': '免费试读',
+ 'score': '8.8',
+ 'score_num': '128',
+ 'style': '爱情小说 / 都市小说',
+ 'title': '你睡了，我醒了'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '马洪湉',
+ 'book_url': 'https://read.douban.com/ebook/21656081/',
+ 'price': '2.99元试读',
+ 'score': '7.8',
+ 'score_num': '276',
+ 'style': '推理小说',
+ 'title': '蒙太奇：斯德哥尔摩之光'}
+2017-11-27 22:45:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://read.douban.com/kind/0?sort=hot&promotion_only=False&min_price=None&max_price=None&works_type=None>
+{'author': '翼走',
+ 'book_url': 'https://read.douban.com/ebook/14371720/',
+ 'price': '1.99元0.00元试读',
+ 'score': '9.0',
+ 'score_num': '1821',
+ 'style': '科幻小说',
+ 'title': '追逐太阳的男人'}
+2017-11-27 22:45:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-27 22:45:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 340,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 13532,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 27, 14, 45, 19, 770408),
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 22,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 11, 27, 14, 45, 18, 160956)}
+2017-11-27 22:45:19 [scrapy.core.engine] INFO: Spider closed (finished)
